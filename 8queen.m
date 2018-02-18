@@ -80,7 +80,7 @@ ruleset i: foreground; j: foreground do
       setDiagnalUnavailable(i, j, d);
     endfor;
 
-    if numOfQueens >= 8 then
+    if numOfQueens >= SIZE then
       printBoard();
     endif;
   endrule;
